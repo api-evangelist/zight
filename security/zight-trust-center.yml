@@ -1,0 +1,27 @@
+generated: '2026-07-21'
+method: searched
+probe: false
+source: https://zight.com/features/trust-security/
+url: https://zight.com/features/trust-security/
+title: Zight Trust Center and Security
+certifications:
+- SOC 2
+- HIPAA
+- GDPR
+controls:
+- SSO / SAML single sign-on
+- Data encryption
+- Third-party penetration testing
+evidence:
+- source: https://zight.com/features/trust-security/
+  keywords:
+  - soc 2
+  - hipaa
+  - gdpr
+  - sso
+  - penetration
+notes: >-
+  Zight publishes a Trust & Security page describing SOC 2, HIPAA, and GDPR
+  compliance posture plus SSO/SAML, encryption, and penetration testing. No
+  separate trust.zight.com portal, security.txt, or public bug-bounty program
+  was found (/.well-known/security.txt returned 404).

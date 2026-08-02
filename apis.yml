@@ -1,8 +1,31 @@
 aid: zight
 name: Zight
-description: Zight is a company surfaced as a portfolio company of bloomberg-beta and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Zight (formerly CloudApp) is a visual communication and asynchronous
+  collaboration platform for capturing and sharing screen recordings, screen
+  captures, screenshots, GIFs, and webcam videos. Teams use Zight to record their
+  screen, annotate images, generate instantly shareable links, and communicate
+  asynchronously across support, sales, engineering, design, and customer-success
+  workflows. The product spans desktop apps (macOS, Windows), browser extensions,
+  mobile apps, and a web sharing surface at share.zight.com, with enterprise
+  features including SSO/SAML, custom branding, analytics, and admin controls.
+  Zight is backed by Bloomberg Beta. This API Evangelist profile tracks Zight's
+  public developer, integration, security, and operational surface; the company
+  currently exposes an integration/partner marketplace and a trust/security
+  program rather than a documented public REST API.
 url: https://raw.githubusercontent.com/api-evangelist/zight/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://zight.com/wp-content/uploads/2023/01/zight-logo.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -10,10 +33,24 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Screen Recording
+- Screenshots
+- Screen Capture
+- Video Messaging
+- Async Collaboration
+- Visual Communication
+- Productivity
+- Annotation
+- GIF
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +59,36 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://getcloudapp.com
+  url: https://zight.com
+- type: Login
+  url: https://share.zight.com/login
+- type: SignUp
+  url: https://share.zight.com/register
+- type: Pricing
+  url: https://zight.com/plans/
+- type: Blog
+  url: https://zight.com/blog/
+- type: Support
+  url: https://support.zight.com/hc/en-us
+- type: HelpCenter
+  url: https://support.zight.com/hc/en-us
+- type: StatusPage
+  url: https://status.zight.com/
+- type: TermsOfService
+  url: https://zight.com/legal/terms-of-service/
+- type: PrivacyPolicy
+  url: https://zight.com/legal/privacy-policy/
+- type: Integrations
+  url: https://zight.com/integrations/
+- type: TrustCenter
+  url: https://zight.com/features/trust-security/
+- type: Compliance
+  url: https://zight.com/features/trust-security/
+- type: Security
+  url: https://zight.com/features/trust-security/
+- type: Lifecycle
+  url: lifecycle/zight-lifecycle.yml
+- type: DomainSecurity
+  url: security/zight-domain-security.yml
+- type: TrustCenter
+  url: security/zight-trust-center.yml

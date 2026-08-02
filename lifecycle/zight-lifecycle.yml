@@ -1,0 +1,15 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of zight.com operational surface
+status_page: https://status.zight.com/
+status_page_provider: Atlassian Statuspage
+versioning: null
+deprecation: null
+sla: null
+deprecated_operations: []
+notes: >-
+  Zight operates an Atlassian Statuspage at https://status.zight.com/ (title
+  "Zight Status", uptime history published). No public API versioning policy,
+  deprecation/Sunset-header policy, or SLA document was found — Zight does not
+  currently publish a documented public REST API (the legacy CloudApp API hosts
+  api.getcloudapp.com / developer.getcloudapp.com no longer resolve).
