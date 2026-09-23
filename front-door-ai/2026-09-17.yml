@@ -1,0 +1,30 @@
+# Front Door AI Index — zight — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: zight
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: zight.com
+  final_host: zight.com
+  ownership: own
+  owner: zight
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 22
+  host_score: 22
+  density: 14.18
+  words: 1551
+  tiers:
+    agentic: 8
+    core: 10
+    model: 4
+  ambiguous: 10
+  top_terms:
+    AI: 10
+    MCP: 8
+    agent: 6
+    smart: 4
+    ChatGPT: 3
+    Claude: 1
